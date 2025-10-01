@@ -287,27 +287,56 @@
 
   <!-- Portfolio -->
   <section id="portfolio" class="pt-20 pb-20 bg-slate-50 dark:bg-slate-800">
-    <div class="container mx-auto text-center px-6">
-      <h2 class="text-3xl font-bold mb-12">Portfolio</h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white dark:bg-slate-900 p-4 rounded-lg shadow">
-          <img src="https://via.placeholder.com/400x250" alt="Project 1" class="rounded-lg" />
-          <h3 class="mt-4 font-semibold text-lg">Hotel PMS</h3>
-          <p class="text-sm mt-2">Sistem manajemen hotel end-to-end.</p>
-        </div>
-        <div class="bg-white dark:bg-slate-900 p-4 rounded-lg shadow">
-          <img src="https://via.placeholder.com/400x250" alt="Project 2" class="rounded-lg" />
-          <h3 class="mt-4 font-semibold text-lg">E-Commerce Platform</h3>
-          <p class="text-sm mt-2">Platform belanja online dengan integrasi pembayaran.</p>
-        </div>
-        <div class="bg-white dark:bg-slate-900 p-4 rounded-lg shadow">
-          <img src="https://via.placeholder.com/400x250" alt="Project 3" class="rounded-lg" />
-          <h3 class="mt-4 font-semibold text-lg">Membership System</h3>
-          <p class="text-sm mt-2">Aplikasi manajemen member dengan point reward.</p>
-        </div>
+  <div class="container mx-auto text-center px-6">
+    <h2 class="text-3xl font-bold mb-12">Portfolio</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Project 1 -->
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-lg shadow hover:shadow-lg transition">
+        <img src="dist/img/portfolio/b2b.png" alt="B2B Booking System" class="rounded-lg" />
+        <h3 class="mt-4 font-semibold text-lg">B2B Booking System</h3>
+        <p class="text-sm mt-2">
+          Online booking platform for hotels, transports, and activities with complete 
+          <span class="font-medium">back-office system</span> to manage products.  
+          Built using <strong>ASP.NET MVC</strong> with <strong>SQL Server</strong>.
+        </p>
+        <p class="text-xs text-slate-500 mt-2">
+          Includes RESTful API design, database architecture, and deployment on PVS server.
+        </p>
       </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-lg shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/400x250" alt="Hotel PMS" class="rounded-lg" />
+        <h3 class="mt-4 font-semibold text-lg">Hotel PMS</h3>
+        <p class="text-sm mt-2">
+          End-to-end <span class="font-medium">Property Management System</span> for hotels,  
+          covering reservations, housekeeping, payments, and room rates.  
+          Built with <strong>Next.js</strong>, <strong>Express</strong>, <strong>Sequelize</strong>, and <strong>MySQL</strong>.
+        </p>
+        <p class="text-xs text-slate-500 mt-2">
+          Includes database design, API development, and PVS server setup.
+        </p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-lg shadow hover:shadow-lg transition">
+        <img src="dist/img/portfolio/gms.png" alt="Guest Management System" class="rounded-lg" />
+        <h3 class="mt-4 font-semibold text-lg">Guest Management System</h3>
+        <p class="text-sm mt-2">
+          A modern guest management solution integrated with hotel PMS.  
+          Features <span class="font-medium">reservation handling</span>, member tracking, and real-time reporting.  
+          Built with <strong>Next.js</strong> + <strong>Express</strong> + <strong>MySQL</strong>.
+        </p>
+        <p class="text-xs text-slate-500 mt-2">
+          Focused on scalability, secure API access, and smooth frontend-backend integration.
+        </p>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Contact -->
   <section id="contact" class="pt-20 pb-20">
